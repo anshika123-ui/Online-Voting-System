@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    
+    }
+
+    .background-image{
+        background-image: url(https://www.epw.in/sites/default/files/cache/epw_images/2021/05/24/Socialimage1_Sudha_May22.png );
+        height: 170vh
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    header {
+     background: linear-gradient(to top, rgba(16, 16, 16, 0.2)50%, rgba(16, 16, 16, 0.2)50%);
+      color: #000;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    section{
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-attachment: #fff;
+        display: flex;
+        align-items: center;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    label {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+    input,
+    select {
+      width: calc(50% - 10px);
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    select {
+      width: 50%;
+    }
+
+    input[type="file"] {
+      margin-top: 5px;
+    }
+
+    button {
+      background-color: #000;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    footer{
+        background-color:#34495e ;
+        columns: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+  </style>
+
+  <title>Registration - Online Voting System</title>
+</head>
+<body>
+      <div class="background-image">
+  <header>
+    <h1>National Election App</h1>
+  </header>
+
+  <section>
+    <div class="main">
+    <h2>Registration</h2>
+    <form>
+      <label for="name">First Name,Middle Name(if any)*</label>
+      <input type="text" name="name" placeholder="Your First Name" required>
+
+      <label for="name">Surname(if any)*</label>
+      <input type="text"  name="name" placeholder="Your Last Name" required>
+
+      <label for="name">Relative's First Name*</label>
+      <input type="text" name="name" placeholder="Father's/Husband's First Nmae" required>
+
+      <label for="name">Relative's Last Name*</label>
+      <input type="text" name="name" placeholder="Father's/Husband's Last Nmae" required>
+
+      <label for="email">Email*</label>
+      <input type="email" name="email" placeholder="Enter Your Email" required>
+
+      <label for="phone">Phone*</label>
+      <input type="tel" name="phone" placeholder="Enter your Phone no." required>
+
+      <label for="state">State*</label>
+      <select name="state" aria-placeholder="Select State" required>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+        </optgroup>
+            <option value="Bihar">Bihar</option>
+        </optgroup>
+            <option value="Chhattisgarh">Chhattisgarh </option> 
+        </optgroup>
+             <option value="Delhi">Delhi</option>       
+                <option value="Goa">Goa</option>             
+            <option value="Gujarat">Gujarat</option>
+               </optgroup>
+            <option value="Haryana">Haryana</option>
+              <option value="Himachal Pradesh">Himachal Pradesh</option> 
+          </optgroup>
+        <option value="Jharkhand">Jharkhand</option>
+           </optgroup>
+          <option value="Karnataka">Karnataka</option>
+        <option value="Kerala">Kerala</option>
+              </optgroup>           
+         <option value="Madhya Pradesh">Madhya Pradesh</option>            
+         <option value="Maharashtra">Maharashtra</option>   
+         <option value="Manipur">Manipur</option>             
+         <option value="Meghalaya">Meghalaya</option>             
+         <option value="Mizoram">Mizoram</option>  
+        </optgroup>           
+            <option value="Nagalanda">Nagalanda</option>             
+        </optgroup>           
+      <option value="Odisha">Odisha</option>             
+    </optgroup>           
+       <option value="Punjab">Punjab</option>             
+    </optgroup>           
+        <option value="Rajasthan">Rajasthan</option>             
+    </optgroup>             
+        <option value="Sikkim">Sikkim</option>             
+    </optgroup>           
+          <option value="Tamil Nadu">Tamil Nadu</option>             
+        <option value="Telangana">Telangana</option>             
+       <option value="Tripura">Tripura</option>             
+       </optgroup>           
+         <option value="Uttar Pradesh">Uttar Pradesh</option>             
+ <option value="Uttarakhand">Uttarakhand</option>             
+ </optgroup>                       
+ <option value="West Bengal">West Bengal</option> 
+      </select>
+
+      <label for="city">City*</label>
+      <input type="text" id="city" name="city" required>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label for="age">Age:</label>
+      <select id="age" name="age">
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      </select>
+
+      <label for="gender">Gender*</label>
+      <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="photo">Upload Photo:</label>
+      <input type="file" id="photo" name="photo" accept="image/*" required>
+
+      <label for="voter_card">Upload Voter Card:</label>
+      <input type="file" id="voter_card" name="voter_card" accept=".pdf, .jpg, .jpeg, .png" required>
+
+      <label for="pan_card">Upload PAN Card:</label>
+      <input type="file" id="pan_card" name="pan_card" accept=".pdf, .jpg, .jpeg, .png" required>
+
+      <button type="submit">Register</button>
+    </form>
+
+    <p>If you already have an account, <a href="Login.html">login here</a>.</p>
+    </div>
+  </section>
+    <footer>
+        <p>&copy; Electiion Commission Of India / राष्ट्रीय चुनाव आयोग</p>
+    </footer>
+</div>
+</body>
+</html>
